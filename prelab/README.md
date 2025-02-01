@@ -6,10 +6,28 @@
 
 Insert your truth table here
 
-### Boolean Equation
+| Months | A | B | C | D | Y |
+|--------|---|---|---|---|---|
+|        | 0 | 0 | 0 | 0 | x |
+| Jan    | 0 | 0 | 0 | 1 | 1 |
+| Feb    | 0 | 0 | 1 | 0 | 0 |
+| Mar    | 0 | 0 | 1 | 1 | 1 |
+| Apr    | 0 | 1 | 0 | 0 | 0 |
+| May    | 0 | 1 | 0 | 1 | 1 |
+| June   | 0 | 1 | 1 | 0 | 0 |
+| July   | 0 | 1 | 1 | 1 | 1 |
+| Aug    | 1 | 0 | 0 | 0 | 1 |
+| Sept   | 1 | 0 | 0 | 1 | 0 |
+| Oct    | 1 | 0 | 1 | 0 | 1 |
+| Nov    | 1 | 0 | 1 | 1 | 0 |
+| Dec    | 1 | 1 | 0 | 0 | 1 |
+|        | 1 | 1 | 0 | 1 | x |
+|        | 1 | 1 | 1 | 0 | x |
+|        | 1 | 1 | 1 | 1 | x |
 
+### Boolean Equation
 $$
-Y = ?
+Y = (A'D) + (AD')
 $$
 
 ### Digital Simulations
